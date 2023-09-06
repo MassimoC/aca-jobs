@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "helloworker", "helloworker\helloworker.csproj", "{F1954E61-E47B-4B9A-A908-50A5E9C63E6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "daprconfig", "daprconfig", "{30F54A0C-D40A-4270-8C16-2A7F4BA6CDEE}"
+	ProjectSection(SolutionItems) = preProject
+		daprconfig\dothejob.yaml = daprconfig\dothejob.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hellocontroller", "hellocontroller\hellocontroller.csproj", "{DB7F9230-4324-4C23-9A08-EB75156D986A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1954E61-E47B-4B9A-A908-50A5E9C63E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1954E61-E47B-4B9A-A908-50A5E9C63E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1954E61-E47B-4B9A-A908-50A5E9C63E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1954E61-E47B-4B9A-A908-50A5E9C63E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB7F9230-4324-4C23-9A08-EB75156D986A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB7F9230-4324-4C23-9A08-EB75156D986A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB7F9230-4324-4C23-9A08-EB75156D986A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB7F9230-4324-4C23-9A08-EB75156D986A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFAA46DE-E332-4A3B-9380-B1C16EEAA020}
+	EndGlobalSection
+EndGlobal
